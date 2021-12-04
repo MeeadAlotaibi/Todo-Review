@@ -15,5 +15,5 @@ app.use(cors());
 const PORT = process.env.PORT;
 
 app.listen(PORT, () => {
-  console.log(`Saever is working on ${PORT}`);
+  console.log(`Server is working on ${PORT}`);
 });
